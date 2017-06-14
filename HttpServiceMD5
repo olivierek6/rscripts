@@ -1,0 +1,3 @@
+local hs=game:service'HttpService'
+md5get=hs:GetAsync("http://blizzardapi.esy.es/md5.php?text=your%20text%20here",true)
+print(md5get)
